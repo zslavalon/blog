@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body,html{
+    background: url("../pic/pic_4.jpg")no-repeat;
+    overflow: hidden;
+    /*opacity: 0.6;*/
+    width:100%;
+    height: 100%;
+    background-position: center;
+    background-size:cover;
+}
+.container{
+    background: white;
+    opacity: 0.8;
+}
+#music-panel{
+    position: relative;
+    z-index: 99;
+}
+#music-panel.on{
+    transform: rotate(180deg);
+}
+#music-control {
+    background: #d0648a url("../pic/music_iet.png") repeat scroll 0 0;
+    border-radius: 10px;
+    bottom: 5px;
+    display: block;
+    height: 68px;
+    position: fixed;
+    right: 10px;
+    transform: translateZ(0px);
+    width: 70px;
+}
+#music-content {
+    position: fixed;
+    bottom: -53px;
+    right: 60px;
+    display: none;
+}
+.navbar{
+    height:7%;
+    font-size: 2em;
+    opacity: 0.6;
+}
+.navbar-nav>li {
+    float: left;
+    margin-left: 48px;
+    margin-top: 0;
+}
+.navbar-nav{
+    margin-left: 5%;
+    float: right;
+}
+.navbar-header {
+    float: left;
+    margin-top: 10px;
+}
+.navbar-brand {
+    color: #5d5d5d;
+}
+.dropdown-menu{
+    margin-left: -70%;
+}
+.dropdown-menu li{
+    font-size: 1.5em;
+}
+.simpleNav{
+    text-align: right;
+    font-size: 2em;
+}
+.title01{
+    text-align: center;
+    color: #101010;
+    font-family: '隶书';
+    font-size: 4em;
+}
+.title_02{
+    float: right;
+    font-family: '黑体';
+    font-size: 1.5em;
+}
+.blog_title{
+    text-align: center;
+    font-size:2.4em;
+    display: block;
+    text-decoration:none;
+}
+.blog_title:hover{
+    background: url("../pic/water.jpg")no-repeat;
+    background-size: 18%;
+    background-position: center;
+    opacity: 0.6;
+    /*text-decoration:none*/
+}
+
+#blog_00{
+    text-align: center;
+}
+.page-header{
+   border-bottom: 1px solid#080808;
+}
+.lianjie{
+    font-size: 2em;
+
+}
