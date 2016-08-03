@@ -87,14 +87,6 @@ body,html{
     display: block;
     text-decoration:none;
 }
-.blog_title:hover{
-    background: url("../pic/water.jpg")no-repeat;
-    background-size: 18%;
-    background-position: center;
-    opacity: 0.6;
-    /*text-decoration:none*/
-}
-
 #blog_00{
     text-align: center;
 }
@@ -103,5 +95,9 @@ body,html{
 }
 .lianjie{
     font-size: 2em;
-
+}
+#times{
+    float: left;
+    border-radius: 50%;
+    border: 2px;
 }
